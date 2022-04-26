@@ -1,0 +1,89 @@
+#sidebar1 {
+  overflow-y: scroll;
+  width: 260px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%);
+  /* position: fixed; */
+}
+/* #sidebar {
+  overflow-y: scroll;
+  width: 260px;
+  height: 100%;
+  background-color: #fff;
+} */
+
+#overlay {
+  position: fixed;
+  width: 260px;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%);
+}
+#fixedoverlay {
+  display: none;
+  position: fixed;
+  left: 260px;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#overlay2 {
+  overflow-y: scroll;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#sidebar2 {
+  display: block;
+  width: 260px;
+  /* height: 79rem; */
+  background-color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#sidebarHeader {
+  margin-top: 1.3rem;
+  padding: 0rem 1rem 0.3rem 1.64rem;
+  cursor: default;
+}
+#closeOverlayButton {
+  display: inline-block;
+  position: absolute;
+  right: 14px;
+  top: 28px;
+  color: #7266f0;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+#logo {
+  max-width: 36px;
+}
+.sidebarH {
+  margin: 0;
+  color: #7266f0;
+  padding-left: 14px;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #fixedoverlay {
+    display: inline-block;
+  }
+}

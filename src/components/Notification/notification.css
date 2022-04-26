@@ -1,0 +1,28 @@
+.notificationCell{
+    display: flex;
+    padding: 1.12rem 1.18rem;
+    font-size:0.9rem;
+    border-bottom: 0.1px solid #676d7d;
+
+}
+.notificationCellImg{
+    margin-right:0.9rem;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
+.notificationCellP{
+ color: #636363;
+ font-weight: 700;
+ margin: 0;
+}
+.notificationCellT{
+    color: #b9b9c3;
+}
+.notificationCellImgContent{
+    text-align: center;
+    padding: 0.47rem;
+    border-radius: 50%;
+    margin-right: 0.9rem;
+    font-weight: 600;
+}

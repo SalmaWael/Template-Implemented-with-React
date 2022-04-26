@@ -1,0 +1,84 @@
+.SideBarAppLi {
+  color: #625f6e;
+  padding: 10px 15px 10px 15px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  cursor: pointer;
+}
+#SideBarAppI {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.SidebarAppFlex:hover,
+.SideBarAppLiChildren:hover {
+  transform: translate(5px, 0px);
+  transition: all 0.38s;
+}
+
+.SidebarAppFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.arrowBtn {
+  background: transparent;
+  border: none;
+  color: #625f6e;
+  font-size: 0.9rem;
+}
+.SideBarAppLiChildren {
+  /* display: block; */
+  list-style-type: circle;
+  color: #625f6e;
+  padding: 10px 15px 10px 35px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  cursor: pointer;
+  line-height: 1;
+}
+
+.SideBarAppLiChildrenSelected {
+  /* display: block; */
+  list-style-type: circle;
+  color: #fff;
+  padding: 10px 15px 10px 35px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  cursor: pointer;
+  line-height: 1;
+  background-color: #7266f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.SideBarAppLiChildren:active,
+.SideBarAppLiChildren:visited {
+  /* background-color: #7266f0; */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.customSideBarAppLiChildren{
+  list-style-type: none;
+  color: #625f6e;
+  padding: 10px 0px 10px 15px;
+  /* margin: 0 15px; */
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  cursor: pointer;
+  line-height: 1;
+}
+
+.disabledSlidebarLi{
+  pointer-events: none;
+    opacity: 0.5;
+}

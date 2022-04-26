@@ -1,0 +1,41 @@
+#SearchComponent {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  box-shadow: 0 2px 8px 0 rgb(34 41 47 / 14%);
+  border-radius: 0.3rem;
+  margin-top: 14px;
+}
+#searchInput {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #6e6b7b;
+}
+#searchInputDiv {
+  padding-left: 1rem;
+  padding-right: 0.9rem;
+  width: 100%;
+}
+#searchIcon {
+  padding-right: 0.9rem;
+  color: #c0bebe;
+}
+
+::placeholder {
+  color: #c0bebe;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c0bebe;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c0bebe;
+}

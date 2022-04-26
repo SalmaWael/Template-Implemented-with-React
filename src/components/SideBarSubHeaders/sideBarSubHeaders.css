@@ -1,0 +1,10 @@
+#appsSpan {
+  display: inline-block;
+  margin: 2.1rem 0 0.7rem 2.1rem;
+  font-weight: 500;
+  color: #a6a4b0;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}

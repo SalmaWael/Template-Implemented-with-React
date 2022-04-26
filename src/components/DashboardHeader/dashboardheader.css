@@ -1,0 +1,63 @@
+#firstLi {
+  margin-top: 7px;
+}
+.sidebarLi {
+}
+#dashbordH {
+  color: #625f6e;
+  padding: 10px 15px 10px 15px;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.sidebarI {
+  /* width: 20px; */
+  /* margin-right: 1.1rem; */
+  margin-right: 15px;
+}
+.dashbordS {
+  color: #625f6e;
+  line-height: 1.3;
+  font-size: 1rem;
+  font-family: Montserrat, Helvetica, Arial, serif;
+  font-weight: 400;
+}
+#dashbordS2 {
+  padding: 0 7px;
+  /* color: #ff9f43; */
+  /* background-color: rgba(255, 159, 67, 0.12); */
+  font-size: 85%;
+  font-weight: 600;
+  line-height: 1;
+  border: none;
+  border-radius: 9rem;
+  margin-right: 10px;
+  margin-left: 14px;
+}
+#dashbordTrans {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+#dashbordTrans:hover {
+  transform: translate(5px, 0px);
+  transition: all 0.38s;
+}
+
+.SideBarHAppLiChildren{
+    /* display: block; */
+    list-style-type: circle;
+    color: #625f6e;
+    padding: 10px 15px 10px 37px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    line-height: 1;
+}
+.SideBarHAppLiChildren:hover {
+  transform: translate(5px, 0px);
+  transition: all 0.38s;
+}

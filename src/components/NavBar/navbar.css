@@ -1,0 +1,62 @@
+#navbar {
+  box-sizing: border-box;
+  margin: 1.3rem 2rem 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.428rem;
+  padding: 0.8rem 1rem;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+
+#languageSpan {
+  margin-left: 7px;
+}
+#falgImg {
+  max-width: 22px;
+  max-height: 14px;
+}
+.navRIcon {
+  padding: 0 7px;
+  font-size: 20px;
+}
+#userImg {
+  max-width: 40px;
+  max-height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.notification {
+  /* background-color: #555; */
+  border: none;
+  background: transparent;
+  color: #6e6b7b;
+  font-size: 21px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: 0.5rem;
+}
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  min-width: 1.3rem;
+  min-height: 1.3rem;
+  right: -4px;
+  padding-top: 13%;
+  border-radius: 50%;
+  color: white;
+  font-size: 0.786rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+#notificationItems {
+  background-color: #ea5455;
+}
+#shoppingItems {
+  background-color: #7367f0;
+}
